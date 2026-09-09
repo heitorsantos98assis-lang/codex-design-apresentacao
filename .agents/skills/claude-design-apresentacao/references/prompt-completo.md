@@ -453,7 +453,7 @@ Cada setor tem KPIs e narrativa próprios. Cola este bloco extra depois do MASTE
 │                                                             │
 │  Pedido hoje: R$ 80k extras pra junho + treino comercial    │  ← Pedido em 1 linha
 │                                                             │
-│  Slide 2/13 · maio/2026 · Bravy · Fonte: 4 anexos          │  ← Footer 11pt 60% op
+│  Slide 2/13 · maio/2026 · HL · Fonte: 4 anexos          │  ← Footer 11pt 60% op
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -831,10 +831,10 @@ NÃO toque na estrutura nem nos números — só visual.
 
 Salva como `{empresa}_{periodo}_{publico}_v{N}.pptx`:
 
-- `bravy_maio2026_socios_v1.pptx` ← rodada 1
-- `bravy_maio2026_socios_v2.pptx` ← depois de checklist
-- `bravy_maio2026_socios_FINAL.pptx` ← versão que apresentou
-- `bravy_maio2026_socios_POS-REUNIAO.pptx` ← com anotações do Q&A pra próximo mês
+- `HL_maio2026_socios_v1.pptx` ← rodada 1
+- `HL_maio2026_socios_v2.pptx` ← depois de checklist
+- `HL_maio2026_socios_FINAL.pptx` ← versão que apresentou
+- `HL_maio2026_socios_POS-REUNIAO.pptx` ← com anotações do Q&A pra próximo mês
 
 ---
 
@@ -879,4 +879,4 @@ Não inflar — cada slide adicional precisa de número-âncora claro.
 
 ---
 
-*Material criado pela Bravy.*
+*Material criado pela HL.*
