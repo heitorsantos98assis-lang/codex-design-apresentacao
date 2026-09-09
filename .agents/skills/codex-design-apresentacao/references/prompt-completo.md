@@ -866,7 +866,7 @@ Não inflar — cada slide adicional precisa de número-âncora claro.
 
 ## Próximo passo
 
-1. Abre `claude.ai/design`.
+1. Abre `Codex.ai/design`.
 2. Escolhe "Apresentação de slides".
 3. Cola o **Prompt MASTER (Seção 3)** + setorial (Seção 4) com as variáveis preenchidas.
 4. Anexa os 3-6 arquivos preparados (Seção 1) + `CONTEXTO.md`.

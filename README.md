@@ -1,4 +1,4 @@
-# Guia completo — Apresentação executiva de desempenho no Claude Design
+# Guia completo — Apresentação executiva de desempenho no Codex
 
 > Não é um prompt. É um **playbook** com 1 prompt master, 5 prompts setoriais, prompts de iteração, layout slide-a-slide, anti-patterns, checklist de qualidade e estratégia de defesa de número em reunião.
 >
@@ -27,24 +27,24 @@
 <a name="1"></a>
 ## 1. Antes de colar o prompt — prepare seus arquivos
 
-Claude Design lê o que você sobe. Lixo entra, lixo sai. **15 minutos preparando os arquivos economiza 2 horas iterando o deck.**
+Codex lê o que você sobe. Lixo entra, lixo sai. **15 minutos preparando os arquivos economiza 2 horas iterando o deck.**
 
 ### 1.1. Renomeie os arquivos com semântica
 
 Errado: `Pasta1/REL_FINAL_v3 (2).xlsx`
 Certo: `comercial_maio_2026.xlsx`, `meta_ads_maio_2026.csv`, `financeiro_dre_maio_2026.pdf`, `nps_pesquisa_maio_2026.csv`
 
-O Claude usa o nome do arquivo como dica de contexto. Nome descritivo = análise mais precisa.
+O Codex usa o nome do arquivo como dica de contexto. Nome descritivo = análise mais precisa.
 
 ### 1.2. Limpe planilha antes de subir
 
 | Mexa | Por quê |
 |---|---|
-| Remova abas vazias | Claude tenta analisar todas — perde tempo e contexto |
+| Remova abas vazias | Codex tenta analisar todas — perde tempo e contexto |
 | Renomeie abas: `vendas_diarias`, `vendas_mensais`, `cohort_clientes` | Sem isso, vira "Sheet1", "Tabela_2" — você paga em precisão |
 | Padronize cabeçalho na linha 1 | Sem linhas mescladas, sem títulos coloridos no meio |
 | Padronize data: `2026-05-15` ISO | Brasileiro `15/05/26` é ambíguo |
-| Padronize R$: número puro `12487.50` | Não `R$ 12.487,50` — Claude tem que parsear |
+| Padronize R$: número puro `12487.50` | Não `R$ 12.487,50` — Codex tem que parsear |
 | Adicione coluna "fonte" se mesclou planilhas | "Origem: comercial / e-commerce / parceria" |
 
 ### 1.3. Crie um arquivo `CONTEXTO.md` (faz toda a diferença)
@@ -70,11 +70,11 @@ Esse é **o arquivo que separa amador de sênior.** Texto livre, ~1 página, con
 - {nome 3, cargo}: já avisou que vai pedir cortar canal X
 ```
 
-**Por quê:** sem isso, o Claude vê números nus. Com isso, ele entende **porquê** e o deck sai já com o discurso pronto pro Q&A.
+**Por quê:** sem isso, o Codex vê números nus. Com isso, ele entende **porquê** e o deck sai já com o discurso pronto pro Q&A.
 
 ### 1.4. Defina o conjunto mínimo
 
-Suba **3 a 6 arquivos**, não 20. Mais que isso o Claude dilui foco. Conjunto mínimo:
+Suba **3 a 6 arquivos**, não 20. Mais que isso o Codex dilui foco. Conjunto mínimo:
 
 - 1 financeiro (DRE ou cash flow mensal)
 - 1 comercial (vendas/pipeline)
@@ -825,7 +825,7 @@ NÃO toque na estrutura nem nos números — só visual.
 | Reunião interna onde vou ajustar | PPTX | Edita slide |
 | Apresentação travada (sócio, board) | PDF | Não dá pra cliente editar acidentalmente |
 | Envio prévio pra leitura | PDF + 1-pager resumo | PDF do deck + 1 página com TL;DR + ASK |
-| Apresentação remota | Compartilha tela com PPT/PDF aberto | Não compartilhe Claude Design ao vivo — risco de regenerar |
+| Apresentação remota | Compartilha tela com PPT/PDF aberto | Não compartilhe Codex ao vivo — risco de regenerar |
 
 ### 12.3. Versionar
 
@@ -866,7 +866,7 @@ Não inflar — cada slide adicional precisa de número-âncora claro.
 
 ## Próximo passo
 
-1. Abre `claude.ai/design`.
+1. Abre `Codex.ai/design`.
 2. Escolhe "Apresentação de slides".
 3. Cola o **Prompt MASTER (Seção 3)** + setorial (Seção 4) com as variáveis preenchidas.
 4. Anexa os 3-6 arquivos preparados (Seção 1) + `CONTEXTO.md`.
